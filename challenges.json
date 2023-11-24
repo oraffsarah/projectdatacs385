@@ -2,6 +2,7 @@
       { 
         "id" : 1,
         "title" : "Bring your own cup",
+        "level" : "Easy",
         "description" : "Bring a reusable cup for tea/coffee instead of disposing one",
         "points" : { 
             "awarded" : 5,
@@ -13,6 +14,7 @@
       { 
         "id" : 2,
         "title" : "Bring your own bag",
+            "level" : "Easy",
         "description" : "Bring an eco-friendly bag to carry your goods/groceries today",
         "points" : { 
             "awarded" : 5,
@@ -24,6 +26,7 @@
       { 
         "id" : 3,
         "title" : "Take public transport",
+            "level" : "Easy",
         "description" : "Take the bus or the train instead of a car to save on emissions",
         "points" : { 
             "awarded" : 20,
@@ -35,6 +38,7 @@
       { 
         "id" : 4,
         "title" : "10 minute shower",
+            "level" : "Medium",
         "description" : "Try and keep the water running less than 10 minutes to reduce water wastage",
         "points" : { 
             "awarded" : 25,
@@ -46,6 +50,7 @@
       { 
         "id" : 5,
         "title" : "5 minute shower",
+            "level" : "Hard",
         "description" : "Try and keep the water running less than 5 minutes to reduce water wastage",
         "points" : { 
             "awarded" : 50,
@@ -57,6 +62,7 @@
       { 
         "id" : 6,
         "title" : "No meat",
+            "level" : "Medium",
         "description" : "Avoid eating meat for the day",
         "points" : { 
             "awarded" : 40,
@@ -68,6 +74,7 @@
       { 
         "id" : 7,
         "title" : "No plastic",
+            "level" : "Hard",
         "description" : "Don't purchase any plastic today",
         "points" : { 
             "awarded" : 60,
@@ -79,6 +86,7 @@
       { 
         "id" : 8,
         "title" : "Zero waste",
+            "level" : "Hard",
         "description" : "Don't produce any non-compostable or non-recyclable waste for the day",
         "points" : { 
             "awarded" : 75,
