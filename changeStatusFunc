@@ -1,0 +1,25 @@
+function changeStatus(item, status) {
+    const nextData = data.map((data) => {
+      if (data.id != item.id) {
+        return data;
+      } else {
+        return {
+          ...data,
+          status: (data.status = status),
+        };
+      }
+    });
+    // Re-render with the new array
+    setData(nextData);
+  }
+
+// using the function (button)
+
+{props.APIData.map((t, index) => (
+      <p key={index}>
+            status = {t.status}, id = {t.id}, title = {t.title}{" "}
+            <button onClick={() => props.compChangeStatus(t, "in progress")}>
+                  change to in progress
+            </button>
+      </p>
+))}
